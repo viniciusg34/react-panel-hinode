@@ -1,0 +1,42 @@
+header{
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    height: 105px;
+}
+
+.containerLogo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 120px;
+}
+
+.logo{
+    width: 50px;
+    height: 49px;
+}
+
+h1{
+    color: white;
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 400px){
+    header{
+        height: 200px;
+    }
+
+    .logo{
+        flex-direction: column;
+        margin-top: 80px;
+    }
+}
